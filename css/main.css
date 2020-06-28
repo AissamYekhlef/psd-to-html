@@ -74,3 +74,73 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
 }
+
+/****************** Discover Section *****************/
+
+.discover-section{
+    background-color: rgb(216, 214, 214);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.food-item{
+    height: 270px;
+    width: 180px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 55px;
+}
+.food-item p{
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.food-item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #F2AC32;
+
+}
+.food-1{
+    background-image: url('../images/burger.jpg');
+    background-size: cover;
+    margin-top:  -20px ;
+    -webkit-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    -moz-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+}
+.food-2{
+    background-image: url('../images/egg-toast.jpg');
+    background-size: cover;
+    -webkit-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    -moz-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);   
+}
+.discover-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+}
+.discover-h2{
+    font-family: 'Oswald', cursive;
+    font-size: 23px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.food-border{
+    border: 2px solid #F2AC32;
+    position: relative;
+}
+.food-overlay{
+    padding: 50px 10px 0 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    -moz-box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+    box-shadow: -6px 12px 24px -1px rgba(0,0,0,0.72);
+}
