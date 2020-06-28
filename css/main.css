@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url("../images/hero.jpg");
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.logo{
+    color: white;
+    font-family: 'yesteryear', cursive;
+    font-size: 40px;
+}
+.nav-menu{
+    list-style: none;
+    color: #fff;
+
+}
+
+.nav-menu li {
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.5s ease-out;
+}
+.nav-menu li a:hover{
+    color:#F2AC32;
+}
+.header-title-1{
+    color: #F2AC32;
+    font-size: 34px;
+    font-family: Rochester, cursive;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.header-title-2{
+    font-family: 'Oswald',sans-serif ;
+    color: #fff;
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+.header-cta-button{
+    color: white;
+    background-color: #F2AC32;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.header-cta-button:hover{
+    background-color:rgb(180, 127, 36);
+    transition: all 0.3s ease-in-out;
+}
+.my-bag{
+    font-size: 16px;
+}
+.search{
+    margin-left: 10px;
+    margin-right: 10px;
+}
