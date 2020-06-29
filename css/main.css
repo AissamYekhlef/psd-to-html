@@ -180,7 +180,7 @@ nav{
     justify-content: center;
 }
 .specialaties-col{
-    width: 300px;
+    width: 250px;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -197,13 +197,16 @@ nav{
 
 .specialaties-image1{
     background-image: url('../images/breakfast.jpg');
+    background-position: center;
 }
 .specialaties-image2{
     background-image: url('../images/lunch.jpg');
+    background-position: center;
 
 }
 .specialaties-image3{
     background-image: url('../images/dinner.jpg');
+    background-position: center;
 
 }
 .specialaties-overlay{
@@ -249,4 +252,176 @@ nav{
     border-left: 100vw solid transparent;
     bottom: 0;
     right: 0;
+}
+
+/****************** Special Menu Section *****************/
+
+.special-menu-container {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.special-menu-section{
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+.special-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+}
+.special-menu-h2{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.special-menu-h3{
+    font-family: 'Rochester', cursive;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.separator,
+.separator-orange{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    margin: 15px auto;
+}
+.special-menu-h4{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.special-menu-p{
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    font-size: 14px;
+    padding: 30px 20px;
+}
+.special-menu-col{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.col-large{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.col-large-1,
+.col-large-3{
+    background-color: #F2AC32;
+    color: #fff;
+    justify-content: center;
+}
+.fa-ice-cream,
+.fa-utensils{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.col-large-2{
+    background-image: url('../images/ice_cream.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-large-4{
+    background-image: url('../images/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Col-small style */
+
+.fa-hamburger{
+    color: #F2AC32;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.col-small{
+     height: 175px; /* col-large/2 */
+     width: 50%;
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     align-content: center;
+     padding:50px 0 50px 0;
+}
+.col-small-1,
+.col-small-4{
+    background-color: #fff;
+}
+.col-small-2{
+    background-image: url('../images/salmon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-2-2{
+    background-image: url('../images/vegetable.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-3-3{
+    background-image: url('../images/balls.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-3{
+    background-image: url('../images/small_pizza.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.col-small-h3{
+    font-family: 'Rochester', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #F2AC32;
+}
+.col-small-h4,
+.col-small-h5{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #000;
+}
+.col-small-h5{
+    color: #F2AC32;
+    margin-bottom: 10px;
+}
+.separator-orange{
+    border-bottom: 2px solid #F2AC32;
+}
+
+/* With some media for responsive of SPECIAL MENU only*/
+@media only screen and (min-width: 1000px) {
+    .special-menu-col{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .special-menu-container {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
