@@ -352,13 +352,15 @@ nav{
     margin-bottom: 10px;
 }
 .col-small{
-     height: 175px; /* col-large/2 */
-     width: 50%;
-     display: flex;
-     justify-content: flex-start;
-     flex-wrap: wrap;
-     align-content: center;
-     padding:50px 0 50px 0;
+    height: 175px; /* col-large/2 */
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding:50px 0 50px 0;
+    background-size: cover;
+    background-position: center;
 }
 .col-small-1,
 .col-small-4{
@@ -366,23 +368,15 @@ nav{
 }
 .col-small-2{
     background-image: url('../images/salmon.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .col-small-2-2{
     background-image: url('../images/vegetable.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .col-small-3-3{
     background-image: url('../images/balls.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .col-small-3{
     background-image: url('../images/small_pizza.jpg');
-    background-size: cover;
-    background-position: center;
 }
 .col-small-h3{
     font-family: 'Rochester', cursive;
