@@ -11,6 +11,9 @@ https://themeforest.net/item/foody-luxury-restaurant-psd-template/17021622?s_ran
 #### the Third part is the Specialities Section
 - Contains Breakfast, Lunch and Dinner sections.
 
+#### the Fourth part is the Special Menu Section
+- Contains different plates as a services.
+
 
 ## Try Demo Website:
 - You can visit this site From this Link : https://aissamyekhlef.github.io/psd-to-html/index.html
