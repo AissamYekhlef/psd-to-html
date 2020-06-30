@@ -84,12 +84,12 @@ nav{
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
-    padding: 60px;
+    padding: 100px;
 }
 
 .food-item{
-    height: 270px;
-    width: 180px;
+    height: 330px;
+    width: 220px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
