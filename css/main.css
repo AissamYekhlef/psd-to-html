@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    min-width: 380px;
+}
 
 header{
     background:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url("../images/hero.jpg");
@@ -417,5 +420,100 @@ nav{
         flex-wrap: wrap;
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+/***************  OUR MENU SECTION  ***************/
+
+
+.our-menu-section{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("../images/plates_as_a_service.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 50px;
+}
+.our-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+}
+.our-menu-h2{
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.food-container{
+    color: #fff;
+    text-align: left;
+    padding-left: 10%;
+    margin: 5%;
+}
+.our-menu-row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5% 10% 5% 10%;
+}
+.our-menu-col{
+    width: 40%;
+    max-width: 500px; 
+}
+
+.food-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.food-title:after{
+    content: ' ---------------';
+    font-size: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.food-price {
+    font-size: 17px;
+    color: #F2AC32;
+    font-family: 'Oswald', sans-serif;
+}
+.food-ingredients {
+    text-transform: lowercase;
+    font-size: 12px;
+}
+.our-menu-button{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff  ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.our-menu-button:hover {
+    background-color:rgba(253, 176, 44, 0.8);
+    color: #000;
+    transition: all 0.4s ease-in-out;
+    border-color: rgba(253, 176, 44, 0.8);
+    padding: 10px 23px;
+}
+
+@media only screen and (max-width: 700px){
+    
+    .our-menu-col{
+        width: 80%;
+        max-width: 500px;    
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1115px){
+        
+    .our-menu-col{
+        width: 45%;   
+        margin: 10px;
     }
 }
