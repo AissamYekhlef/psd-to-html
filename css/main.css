@@ -65,6 +65,8 @@ nav{
     background-color: #F2AC32;
     padding: 10px 20px;
     text-decoration: none;
+    font-family: 'Oswald',sans-serif ;
+    font-size: 15px;
 }
 .header-cta-button:hover{
     background-color:rgb(180, 127, 36);
@@ -516,4 +518,67 @@ nav{
         width: 45%;   
         margin: 10px;
     }
+}
+
+
+/****************** BOOKING TABLE Section *****************/
+
+.booking-table-section {
+    padding: 100px;
+    background-color: #f0f0f0;
+}
+.booking-table-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    text-align: center;
+}
+.booking-table-h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    margin-bottom: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.booking-table-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.booking-div {
+    background-color: #fff;
+    margin: 20px;
+    border: 1px solid #000;
+    width: 142px;
+}
+.booking-icon {
+    padding: 10px;
+    display: inline-block;
+    border-right: 2px solid #f0f0f0; /**/
+    cursor: pointer;
+}
+.booking-data {
+    padding-left: 10px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ .booking-cta{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #F2AC32;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: none;
+    text-align: center;
+}
+.booking-cta:hover {
+    background-color:rgb(180, 127, 36);
+    transition: all 0.3s ease-in-out;
 }
