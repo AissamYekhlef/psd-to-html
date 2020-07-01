@@ -587,3 +587,68 @@ nav{
     background-color:rgb(180, 127, 36);
     transition: all 0.3s ease-in-out;
 }
+
+
+/***************  FOOTER Section  ****************/
+
+.footer-section {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("../images/footer-img.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    padding-bottom: 0;
+}
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+.footer-col {
+    margin: 30px;
+    width: 150px;
+}
+.footer-title {
+    text-transform: uppercase;
+    color: #F2AC32;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.footer-text {
+    margin: 10px 10px 10px 0;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-email {
+    padding: 10px ;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.footer-subscribe {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #F2AC32;
+    padding: 5px 30px; 
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+.copyright {
+    padding: 35px;
+    color: #f0f0f0;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    border-top: 1px solid #a7a7a73d;
+    text-align: center;
+}
+.copyright-name{
+    color: #F2AC32;
+}
