@@ -18,7 +18,7 @@ https://themeforest.net/item/foody-luxury-restaurant-psd-template/17021622?s_ran
 
 #### the Fifth part is the -OUR MENU- Section
 - Contains our menu of plates.
-- 
+
 #### the Sixth part is the -Footer- Section
 - Contains and  Footer of page.
 
