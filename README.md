@@ -20,7 +20,7 @@ https://themeforest.net/item/foody-luxury-restaurant-psd-template/17021622?s_ran
 - Contains our menu of plates.
 
 #### the Sixth part is the -Footer- Section
-- Contains and  Footer of page.
+- Contains Booking Table section and Footer of page.
 
 
 ## Try Demo Website:
