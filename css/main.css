@@ -17,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 30px 40px;
+    align-items: center;
 }
 
 .logo{
@@ -27,7 +28,6 @@ nav{
 .nav-menu{
     list-style: none;
     color: #fff;
-
 }
 
 .nav-menu li {
@@ -43,7 +43,8 @@ nav{
     padding-right: 10px;
     transition: all 0.5s ease-out;
 }
-.nav-menu li a:hover{
+.nav-menu li a:hover,
+.nav-menu li a:focus{
     color:#F2AC32;
 }
 .header-title-1{
@@ -723,4 +724,31 @@ nav{
 }
 .copyright-name{
     color: #F2AC32;
+}
+
+/********** Top page button ************/
+
+.fixed_button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    z-index: 99;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    text-align: center;
+    border-radius: 10px;
+}
+
+a.fixed_button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(75, 66, 66, 0.3);
+    color: #fff;
 }
