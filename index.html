@@ -335,10 +335,24 @@
     let mainNav = document.getElementById('js-menu');
     let navBarToggle = document.getElementById('js-navbar-toggle');
 
+
     navBarToggle.addEventListener('click', function () {
         
         mainNav.classList.toggle('active-nav-list');
     });
+    function removeClaccMedia(w){  
+        if(w.matches){
+            var x = document.getElementById('js-menu');
+            x.className = "nav-menu";
+        }
+       
+    }
+    var w = window.matchMedia("(min-width: 700px)");
+    // removeClaccMedia(w);
+    w.addListener(removeClaccMedia);// add listener on state changes
+
+
+    mainNav.classList.remove('active-nav-list');
 </script>
 
 
