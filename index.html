@@ -341,9 +341,14 @@
         mainNav.classList.toggle('active-nav-list');
     });
     function removeClaccMedia(w){  
+        var nav_menu = document.getElementById('js-menu');
+        var js_navbar_toggle = document.getElementById("js-navbar-toggle");
         if(w.matches){
-            var x = document.getElementById('js-menu');
-            x.className = "nav-menu";
+            nav_menu.className = "nav-menu";
+            
+            js_navbar_toggle.style.display = "none";
+        }else{
+            js_navbar_toggle.style.display = "block";
         }
        
     }
@@ -352,7 +357,7 @@
     w.addListener(removeClaccMedia);// add listener on state changes
 
 
-    mainNav.classList.remove('active-nav-list');
+
 </script>
 
 
